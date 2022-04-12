@@ -2,30 +2,30 @@
 outputs: meta
 slug: book
 
-languageCode: en-US
+languageCode: cz-CS
 meta:
-  title: "Next-book Boilerplate"
-  author: "Author Name"
-  publisher: mkp
-  published: 2020
-  keywords: []
-  edition: beletrie
+  title: "Klimavize"
+  author: "pracovní skupina Klimavize"
+  publisher: Klimavize
+  published: 2022
 chapters:
-  - where-i-lived-and-what-i-lived-for.html
-  - reading.html
-  - sounds.html
-  - solitude.html
+  - 1.md
+  - 2.md
+  - 3.md
+  - 4.md
+  - 5.md
+  - 6.md
+  - 7.md
+  - 61.md
+  - 62.md
+  - 63.md
+  - 64.md
+  - 65.md
+  - 66.md
+  - colophon.md
+  - slovnicek.md
+  - zdroje.md
 tocBase:
-  - link: where-i-lived-and-what-i-lived-for.html
-    title: Where-i-lived-and-what-i-lived-for
-    numberedChildren: true;
-    children:
-      - link: reading.html
-        title: Reading
-      - link: sounds.html
-        title: Sounds
-  - link: solitude.html
-    title: Solitude
 static:
   - style
   - scripts
