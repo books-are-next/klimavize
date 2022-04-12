@@ -1,33 +1,126 @@
-main {
-  h1 {
-    font-size: 4rem;
-    line-height: 6rem;
-    margin-bottom: 13rem;
+$indent: 5rem;
+:root {
+  --background: #005359;
+}
 
-    font-family: LiterataVar;
-    font-weight: 200;
-    font-variation-settings: "wght" 200, "opsz" 72;
+.content {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: RightGrotesk;
   }
 
-  p {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 3.7rem;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    margin: 4rem 0 2rem;
+
+    &:last-of-type {
+      border-top: 1px solid var(--text-color);
+      padding-top: 1rem;
+
+      & + ul:last-of-type {
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--text-color);
+      }
+    }
+
+    &[id="tipy-pro-klimatické-hnutí"] {
+      border: 1px solid var(--text-color);
+      padding: 0.5rem;
+      background-image: url(../images/zarovka.png);
+      background-size: 2.5rem;
+      background-position: 100% 0%;
+      background-repeat: no-repeat;
+    }
+  }
+
+  h3,
+  h4 {
+    margin: 3rem 0 2rem $indent;
+  }
+
+  p,
+  li {
     margin-bottom: 0;
-    text-indent: 3rem;
-    font-family: LiterataVar;
+    font-family: Archivo;
     font-weight: 400;
-    font-variation-settings: "wght" 400, "opsz" 12;
     font-size: 1rem;
     line-height: 1.9rem;
   }
 
-  blockquote,
-  q,
-  blockquote p {
-    font-family: LiterataVarItalic;
+  p {
+    text-indent: $indent;
   }
 
-  h1 + p,
-  h2 + p,
-  h3 + p {
+  .perex p {
     text-indent: 0;
+    margin: 0 0 2rem $indent;
+
+    font-family: RightGrotesk;
+
+    strong {
+      font-weight: 400;
+      color: var(--background);
+      background-color: var(--text-color);
+      padding: 1px;
+    }
+  }
+
+  ul li {
+  }
+
+  ol li {
+  }
+
+  aside {
+    margin: 1.5rem 0 1.5rem $indent;
+    padding: 0.5rem 0;
+    border: solid;
+    border-width: 1px 0;
+
+    p {
+      text-indent: 0;
+    }
+  }
+
+  blockquote {
+    position: relative;
+
+    &::before {
+      content: "";
+      display: block;
+      background-image: url("../template-images/quotes.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 0% 0%;
+      width: 2rem;
+      height: 2rem;
+
+      position: absolute;
+      top: 0.5rem;
+      left: -3rem;
+    }
+
+    margin: 1.5rem 0 1.5rem $indent;
+
+    p {
+      font-size: 1.1rem;
+      text-indent: 0;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.4rem;
+
+      em {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+    }
   }
 }

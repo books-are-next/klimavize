@@ -2,7 +2,12 @@
 <div class="content">
   <main>
     <h1{{ if .Params.hiddenTitle }} class="hidden-title"{{ end }}>{{ .Title | markdownify }}</h1>
-    {{ with .Params.authors }}<p class="authors">{{ . | markdownify }}</p>{{ end }}
+    {{ with .Params.perex }}
+      <div class="perex">
+        {{ partial "md-block.html" . }}
+      </div>
+    {{ end }}
+
     {{ partial "typo.html" .RawContent }}
   </main>
 </div>
