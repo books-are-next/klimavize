@@ -24,3 +24,15 @@ ISBN
 Aktuality a další informace získáte prostřednictvím e-mailu **info@klimavize.cz**. Na webových stránkách **klimavize.cz** se dozvíte více o celém projektu a také tam najdete elektronickou variantu publikace či zkrácenou audioverzi.
 
 Děkujeme nadaci Rosa Luxemburg Stiftung, e. V., zastoupení v České republice, za finanční podporu a Klimatické koalici za organizační podporu a navazující spolupráci. Děkujeme všem respondentům a respondentkám i všem, kteří se zúčastnili focus group, za laskavost, čas a inspirující diskuze. Děkujeme Janu Řezáčovi a Romanu Hřebeckému za podporu při definici celého projektu a zpětnou vazbu. Děkujeme Mirce Smolkové za projektovou koordinaci, Radku Kubalovi, Barboře Valešové, Barboře Urbanové, Petru Jakubcovi, Elišce Bartošové a Ondřeji Paškovi za cenné komentáře k textům a nakonec také celému klimatickému hnutí za ochotu k účasti na kolektivním procesu vznikání Klimavize.
+
+![](./images/RLS2_copy.jpg)
+
+![](./images/HnutiDUHA1_copy.jpg)
+
+![](./images/reset.svg)
+
+![](./images/HouseOfRezac2.jpg)  
+
+![](./images/KlimatickaKoalice2.jpg)  
+
+![](./images/greenpeace.jpg)
