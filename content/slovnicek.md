@@ -167,5 +167,5 @@ zelený růst
 Zelená dohoda pro Evropu
 : (*European Green Deal*) je soubor politik Evropské komise, které mají za cíl dosáhnout v Evropské unii snížení emisí o 55 % do roku 2030 a klimatické neutrality do roku 2050.
 
-[^001]: SIMPSON, R. David. Putting a Price on Ecosystem Services. Dostupné z: https://issues.org/putting-a-price-on-ecosystem-services.
-[^000]: Viz definice v takzvaných Balijských principech klimatické spravedlnosti, na nichž se v roce 2002 usnesla pestrá platforma mezinárodních občanských organizací a hnutí: Bali Principles of Climate Justice. Dostupné z: https://www.corpwatch.org/article/bali-principles-climate-justice.
+[^001]: SIMPSON, R. David. Putting a Price on Ecosystem Services. Dostupné z: [issues.org](https://issues.org/putting-a-price-on-ecosystem-services).
+[^000]: Viz definice v takzvaných Balijských principech klimatické spravedlnosti, na nichž se v roce 2002 usnesla pestrá platforma mezinárodních občanských organizací a hnutí: Bali Principles of Climate Justice. Dostupné z: [www.corpwatch.org](https://www.corpwatch.org/article/bali-principles-climate-justice).

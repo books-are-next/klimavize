@@ -147,7 +147,7 @@ title: "Seznam zdrojů"
 
 -   *NOVÁ DOHODA: program sociálněekologické transformace pro Českou republiku* [online]. Re-set: platforma pro sociální a ekologickou transformaci [cit. 2021-12-28]. Dostupné z: novadohoda.cz.
 
--   *Změna k lepšímu* [online]. <br />[cit. 2021-12-28]. Dostupné z: www.klepsimu.cz.
+-   *Změna k lepšímu* [online]. <br />[cit. 2021-12-28]. Dostupné z: [www.klepsimu.cz](https://www.klepsimu.cz).
 
 -   IPCC. *Climate Change 2021: <br />The Physical Science Basis. Contribution* *of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change* [online]. Cambridge University Press, 2021 [cit. 2021-12-28]. Dostupné z: [www.ipcc.ch](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Full_Report).pdf.
 
@@ -211,7 +211,7 @@ title: "Seznam zdrojů"
 
 ## 6.4 Jak to celé dělat spravedlivě
 
--   *NOVÁ DOHODA: program sociálněekologické transformace pro Českou republiku* [online]. Re-set: platforma pro sociální a ekologickou transformaci [cit. 2021-12-28]. Dostupné z: www.novadohoda.cz.
+-   *NOVÁ DOHODA: program sociálněekologické transformace pro Českou republiku* [online]. Re-set: platforma pro sociální a ekologickou transformaci [cit. 2021-12-28]. Dostupné z: [www.novadohoda.cz](https://www.novadohoda.cz).
 
 -   *Spravedlivá transformace očima místních lidí* [online]. Re-set: platforma pro sociálně-ekologickou transformaci, 2021 [cit. 2021-12-28]. Dostupné z: [re-set.cz](https://re-set.cz/wp-content/uploads/2022/01/spravedlivka_finale_web).pdf.
 
@@ -243,9 +243,9 @@ title: "Seznam zdrojů"
 
 -   *Politika ochrany klimatu v Česku: slova ztracená ve větru* [online]. Praha: Klimatická koalice, Centrum pro dopravu a energetiku, 2020 [cit. 2021-12-28]. Dostupné z: [www.cde-org.cz](https://www.cde-org.cz/media/object/1613/cde_politika_klimatu_v_cr_2).pdf.
 
--   *Změna k lepšímu* [online]. [cit. 2021-12-28]. Dostupné z: www.klepsimu.cz.
+-   *Změna k lepšímu* [online]. [cit. 2021-12-28]. Dostupné z: [www.klepsimu.cz](https://www.klepsimu.cz).
 
--   *Slušná firma* [online]. [cit. 2021-12-28]. Dostupné z: www.slusnafirma.cz.
+-   *Slušná firma* [online]. [cit. 2021-12-28]. Dostupné z: [www.slusnafirma.cz](https://www.slusnafirma.cz).
 
 -   GREENPEACE ČESKÁ REPUBLIKA, ČOSE, CDE A HNUTÍ DUHA. Dvě třetiny lidí podporují výsluhové dávky pro uhelné horníky a energetiky. Odbory a ekologické organizace žádají spravedlivou transformaci. *Greenpeace Česká republika* [online]. 29. dubna 2021 [cit. 2021-12-28]. Dostupné z: [www.greenpeace.org](https://www.greenpeace.org/czech/tiskova-zprava/13641/dve-tretiny-lidi-podporuji-vysluhove-davky-pro-uhelne-horniky-a-energetiky-odbory-a-ekologicke-organizace-zadaji-spravedlivou-transformaci).
 
@@ -279,9 +279,9 @@ title: "Seznam zdrojů"
 
 -   *Jak navrhnout město, které* *(pře)žije?:* *8 oblastí, v nichž lze lépe připravit města na změnu klimatu* [online]. Praha: Heinrich Böll Stiftung Praha, 2021 [cit. 2021-12-28]. ISBN 978-80-88289-24-1. Dostupné z: [cz.boell.org](https://cz.boell.org/cs/2021/05/21/jak-navrhnout-mesto-ktere-prezije).
 
--   *MOUDRÁ MĚSTA: Tvoříme společně města budoucnosti: v rovnováze s lidmi i s přírodou* [online]. NESEHNUTÍ Brno [cit. 2021-12-28]. Dostupné z: www.moudramesta.cz.
+-   *MOUDRÁ MĚSTA: Tvoříme společně města budoucnosti: v rovnováze s lidmi i s přírodou* [online]. NESEHNUTÍ Brno [cit. 2021-12-28]. Dostupné z: [www.moudramesta.cz](https://www.moudramesta.cz).
 
--   *Národní plán obnovy* [online]. Ministerstvo průmyslu a obchodu, Úřad vlády České republiky [cit. 2021-12-28]. Dostupné z: www.planobnovycr.cz.
+-   *Národní plán obnovy* [online]. Ministerstvo průmyslu a obchodu, Úřad vlády České republiky [cit. 2021-12-28]. Dostupné z: [www.planobnovycr.cz](https://www.planobnovycr.cz).
 
 -   POLÁŠEK, M., ed. Dobré vládnutí. *Strategický rámec Česká republika 2030* [online]. Praha: Úřad vlády ČR, 2017, s. 323-336 [cit. 2021-12-28]. ISBN 978-80-7440-188-6. Dostupné z: [www.cr2030.cz](https://www.cr2030.cz/strategie/dokumenty-ke-stazeni).
 
