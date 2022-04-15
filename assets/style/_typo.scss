@@ -1,19 +1,152 @@
-$indent: 5rem;
+$green: #1f5961;
+$orange: #f3845e;
+
+@mixin light {
+  @content;
+
+  .nb-color-scheme-light {
+    @content;
+  }
+}
+
+@mixin dark {
+  @media (prefers-color-scheme: dark) {
+    @content;
+  }
+
+  .nb-color-scheme-dark {
+    @content;
+  }
+}
+
+@mixin sepia {
+  .nb-color-scheme-sepia {
+    @content;
+  }
+}
+
 :root {
-  --background: #005359;
+  --indent: 5rem;
+
+  @media (max-width: 600px) {
+    --indent: 2rem;
+  }
+}
+
+#title-wrapper {
+  display: block;
+
+  background-image: url(../images/zemekoule.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  h1 {
+    margin: 0;
+    font-size: 18vw;
+    line-height: 18vw;
+    letter-spacing: -0.02em;
+    color: $green;
+    mix-blend-mode: multiply;
+    text-align: center;
+  }
+
+  p.subtitle {
+    font-family: RightGrotesk;
+    font-size: 9vw;
+    line-height: 9vw;
+
+    margin-left: 20vw;
+    margin-top: 3rem;
+    padding: 5vw;
+    color: white;
+    background: $green;
+    mix-blend-mode: multiply;
+
+    @media (min-aspect-ratio: 1/1) {
+      margin-top: 10vh;
+      font-size: 8vh;
+      line-height: 8vh;
+    }
+  }
+
+  p.info {
+    color: $green;
+    //font-family: Archivo;
+    margin-left: 20vw;
+    font-size: 3vw;
+
+    @media (min-aspect-ratio: 1/1) {
+      font-size: 4vh;
+    }
+  }
+}
+
+#break-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  &.break {
+    h1 {
+      font-family: RightGrotesk;
+      color: $green;
+      line-height: 90vh;
+      font-size: 80vh;
+
+      position: absolute;
+      top: 0;
+      width: 100vw;
+      left: 0;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      overflow: hidden;
+
+      .text {
+        mix-blend-mode: multiply;
+      }
+    }
+
+    img {
+      display: block;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+      object-fit: cover;
+      object-position: 50% 50%;
+      margin: 0;
+    }
+  }
+
+  &.break-2 {
+    h1 {
+      .text {
+        mix-blend-mode: normal;
+        color: $orange;
+      }
+    }
+  }
+
+  &.break-4,
+  &.break-7 {
+    h1 {
+      .text {
+        color: #f27155;
+      }
+    }
+  }
 }
 
 .content {
-  h1,
-  h2,
-  h3,
-  h4 {
-    font-family: RightGrotesk;
-  }
-
   h1 {
-    font-size: 3.5rem;
-    line-height: 3.7rem;
+    line-height: 2rem;
     margin-bottom: 2rem;
   }
 
@@ -42,27 +175,140 @@ $indent: 5rem;
 
   h3,
   h4 {
-    margin: 3rem 0 2rem $indent;
+    margin: 3rem 0 2rem var(--indent);
   }
 
+  dd,
+  dt,
   p,
   li {
     margin-bottom: 0;
-    font-family: Archivo;
+    //font-family: Archivo;
     font-weight: 400;
-    font-size: 1rem;
+    // font-size: 1rem;
     line-height: 1.9rem;
   }
 
+  dt {
+    float: left;
+    font-weight: bold;
+    margin-right: 0.25rem;
+
+    &::before {
+      content: "• ";
+    }
+  }
+
+  dd {
+    margin: 1rem 0;
+  }
+
+  figure {
+    margin: 1.5rem 0;
+
+    &.illustration,
+    &.small,
+    &.medium,
+    &.large {
+      overflow-x: scroll;
+      padding-bottom: 1rem;
+
+      p {
+        margin: 0;
+        text-indent: 0;
+
+        @include light {
+          filter: none;
+          mix-blend-mode: normal;
+        }
+
+        @include dark {
+          will-change: auto;
+          filter: #{"invert()"};
+          mix-blend-mode: plus-lighter;
+        }
+      }
+
+      img {
+        height: 60vh;
+        width: auto;
+        max-width: none;
+      }
+    }
+
+    &.medium img {
+      height: 40vh;
+    }
+
+    &.illustration img,
+    &.small img {
+      height: auto;
+      max-width: 100%;
+      padding-bottom: 0;
+    }
+
+    &.illustration p {
+      @include light {
+        filter: none;
+        mix-blend-mode: darken;
+      }
+
+      @include dark {
+        filter: #{"grayscale()"};
+        mix-blend-mode: multiply;
+      }
+    }
+  }
+
+  .participants {
+    dl {
+      @media (min-width: 600px) {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 0;
+      }
+    }
+
+    dt {
+      float: none;
+      border-top: 1px solid var(--text-color);
+      padding: 0.75rem 0.5rem 0.5rem 0;
+      margin: 0;
+      display: block;
+      line-height: 1.2rem;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    dd {
+      margin: 0 0 1rem;
+      padding: 0;
+
+      display: block;
+
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+
+      @media (min-width: 600px) {
+        margin: 0;
+        padding: 0.5rem 0;
+        border-top: 1px solid var(--text-color);
+      }
+    }
+  }
+
   p {
-    text-indent: $indent;
+    text-indent: var(--indent);
   }
 
   .perex p {
     text-indent: 0;
-    margin: 0 0 2rem $indent;
+    margin: 0 0 2rem var(--indent);
 
     font-family: RightGrotesk;
+    line-height: 1.3;
 
     strong {
       font-weight: 400;
@@ -72,14 +318,16 @@ $indent: 5rem;
     }
   }
 
-  ul li {
+  ol {
+    padding-left: var(--indent);
   }
 
-  ol li {
+  li p {
+    text-indent: 0;
   }
 
   aside {
-    margin: 1.5rem 0 1.5rem $indent;
+    margin: 1.5rem 0 1.5rem var(--indent);
     padding: 0.5rem 0;
     border: solid;
     border-width: 1px 0;
@@ -95,7 +343,15 @@ $indent: 5rem;
     &::before {
       content: "";
       display: block;
-      background-image: url("../template-images/quotes.svg");
+
+      @include light {
+        background-image: url("../template-images/quotes.svg");
+      }
+
+      @include dark {
+        background-image: url("../template-images/quotes-white.svg");
+      }
+
       background-repeat: no-repeat;
       background-size: contain;
       background-position: 0% 0%;
@@ -103,11 +359,11 @@ $indent: 5rem;
       height: 2rem;
 
       position: absolute;
-      top: 0.5rem;
+      top: 0.3rem;
       left: -3rem;
     }
 
-    margin: 1.5rem 0 1.5rem $indent;
+    margin: 1.5rem 0 1.5rem var(--indent);
 
     p {
       font-size: 1.1rem;
@@ -122,5 +378,35 @@ $indent: 5rem;
         font-size: 1rem;
       }
     }
+  }
+}
+
+.nb-role-colophon .content p {
+  text-indent: 0;
+  margin-bottom: 1rem;
+}
+
+.logos {
+  margin-top: 2rem;
+
+  p {
+    margin-bottom: 2rem;
+
+    @include light {
+      filter: none;
+      mix-blend-mode: normal;
+    }
+
+    @include dark {
+      will-change: auto;
+      filter: #{"invert()"};
+      mix-blend-mode: plus-lighter;
+    }
+  }
+
+  img {
+    display: block;
+    max-height: 4rem;
+    max-width: 9rem;
   }
 }
