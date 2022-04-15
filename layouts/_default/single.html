@@ -1,14 +1,30 @@
 {{ define "content" }}
-<div class="content">
-  <main>
-    <h1{{ if .Params.hiddenTitle }} class="hidden-title"{{ end }}>{{ .Title | markdownify }}</h1>
-    {{ with .Params.perex }}
-      <div class="perex">
-        {{ partial "md-block.html" . }}
+  {{ if eq .Params.role "break" }}
+    <main>
+      <div id="break-wrapper" class="break break-{{ .Title }}">
+        <h1>
+          <span class="text">{{ .Title | markdownify }}</span>
+        </h1>
+        {{ with .Params.image }}
+          <img src="./images/{{ . }}" alt="" aria-hidden="true" />
+        {{ end }}
       </div>
-    {{ end }}
+    </main>
+  {{ else }}
+    <div class="content">
+      <main>
+        <h1{{ if .Params.hiddenTitle }} class="hidden-title"{{ end }}>
+          {{ .Title | markdownify }}
+        </h1>
 
-    {{ partial "typo.html" .RawContent }}
-  </main>
-</div>
+        {{ with .Params.perex }}
+          <div class="perex">
+            {{ partial "md-block.html" . }}
+          </div>
+        {{ end }}
+
+        {{ partial "typo.html" .RawContent }}
+    </main>
+  </div>
+  {{ end }}
 {{ end }}
