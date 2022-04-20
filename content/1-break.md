@@ -1,5 +1,5 @@
 ---
 title: 1
-image: zemekoulesdfsdfsf.png
+image: zemekoulesdfsdfsf.jpg
 role: break
 ---

@@ -1,5 +1,5 @@
 ---
 title: 2 
-image: Spiky.png
+image: Spiky.jpg
 role: break
 ---
