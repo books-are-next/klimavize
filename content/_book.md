@@ -74,5 +74,15 @@ static:
   - fonts
   - images
   - template-images
+  - android-chrome-192x192.png
+  - android-chrome-384x384.png
+  - apple-touch-icon.png
+  - favicon-16x16.png
+  - favicon-32x32.png
+  - favicon.ico
   - favicon.png
+  - mstile-150x150.png
+  - safari-pinned-tab.svg
 ---
+
+

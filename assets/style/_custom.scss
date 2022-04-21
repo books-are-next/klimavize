@@ -1,28 +1,51 @@
+@use "./../../node_modules/@next-book/interface/src/scss/conf";
+
 $green: #1f5961;
 $orange: #f3845e;
 
 @mixin light {
-  @content;
+  --base-filter: none;
+  --base-mix-blend-mode: normal;
 
-  .nb-color-scheme-light {
-    @content;
-  }
+  --illustration-filter: none;
+  --illustration-mix-blend-mode: darken;
+
+  --quote-bg: url("../template-images/quotes.svg");
 }
 
 @mixin dark {
-  @media (prefers-color-scheme: dark) {
-    @content;
-  }
+  --base-filter: #{"invert()"};
+  --base-mix-blend-mode: plus-lighter;
 
-  .nb-color-scheme-dark {
-    @content;
-  }
+  --illustration-filter: #{"grayscale()"};
+  --illustration-mix-blend-mode: multiply;
+
+  --quote-bg: url("../template-images/quotes-white.svg");
 }
 
 @mixin sepia {
-  .nb-color-scheme-sepia {
-    @content;
+}
+
+body {
+  @include light;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    @include dark;
   }
+}
+
+body.nb-color-scheme-light {
+  @include light;
+}
+
+body.nb-color-scheme-dark {
+  @include dark;
+}
+
+body.nb-color-scheme-sepia {
+  @include sepia;
 }
 
 :root {
@@ -33,13 +56,33 @@ $orange: #f3845e;
   }
 }
 
+div[role="doc-toc"] > ul {
+  padding: 0;
+
+  li {
+    list-style-type: none;
+  }
+
+  ol ol {
+    display: none;
+  }
+}
+
 #title-wrapper {
   display: block;
 
-  background-image: url(../images/zemekoule.png);
+  background-image: url(../images/zemekoule.jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  z-index: map-get(conf.$z-indexes, "breaks");
 
   h1 {
     margin: 0;
@@ -72,7 +115,6 @@ $orange: #f3845e;
 
   p.info {
     color: $green;
-    //font-family: Archivo;
     margin-left: 20vw;
     font-size: 3vw;
 
@@ -88,6 +130,7 @@ $orange: #f3845e;
   left: 0;
   width: 100vw;
   height: 100vh;
+  z-index: map-get(conf.$z-indexes, "breaks");
 
   &.break {
     h1 {
@@ -123,6 +166,11 @@ $orange: #f3845e;
       object-position: 50% 50%;
       margin: 0;
     }
+
+    img + img {
+      mix-blend-mode: darken;
+      object-fit: contain;
+    }
   }
 
   &.break-2 {
@@ -144,7 +192,7 @@ $orange: #f3845e;
   }
 }
 
-.content {
+.nb-custom-style .content {
   h1 {
     line-height: 2rem;
     margin-bottom: 2rem;
@@ -183,10 +231,7 @@ $orange: #f3845e;
   p,
   li {
     margin-bottom: 0;
-    //font-family: Archivo;
     font-weight: 400;
-    // font-size: 1rem;
-    line-height: 1.9rem;
   }
 
   dt {
@@ -210,53 +255,42 @@ $orange: #f3845e;
     &.small,
     &.medium,
     &.large {
-      overflow-x: scroll;
-      padding-bottom: 1rem;
-
       p {
         margin: 0;
         text-indent: 0;
 
-        @include light {
-          filter: none;
-          mix-blend-mode: normal;
-        }
-
-        @include dark {
-          will-change: auto;
-          filter: #{"invert()"};
-          mix-blend-mode: plus-lighter;
-        }
+        filter: var(--base-filter);
+        mix-blend-mode: var(--base-mix-blend-mode);
       }
 
       img {
-        height: 60vh;
-        width: auto;
-        max-width: none;
+        max-height: 60vh;
+        max-width: 100%;
       }
     }
 
-    &.medium img {
-      height: 40vh;
+    &.medium {
+      img {
+        max-height: 40vh;
+      }
+
+      @media (min-width: 700px) {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
     }
 
     &.illustration img,
     &.small img {
       height: auto;
-      max-width: 100%;
       padding-bottom: 0;
     }
 
     &.illustration p {
-      @include light {
-        filter: none;
-        mix-blend-mode: darken;
-      }
-
-      @include dark {
-        filter: #{"grayscale()"};
-        mix-blend-mode: multiply;
-      }
+      filter: var(--illustration-filter);
+      mix-blend-mode: var(--illustration-mix-blend-mode);
     }
   }
 
@@ -343,24 +377,22 @@ $orange: #f3845e;
     &::before {
       content: "";
       display: block;
-
-      @include light {
-        background-image: url("../template-images/quotes.svg");
-      }
-
-      @include dark {
-        background-image: url("../template-images/quotes-white.svg");
-      }
-
+      background-image: var(--quote-bg);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: 0% 0%;
-      width: 2rem;
-      height: 2rem;
+      width: calc(0.4 * var(--indent));
+      height: calc(0.4 * var(--indent));
 
       position: absolute;
       top: 0.3rem;
-      left: -3rem;
+      left: calc(-0.6 * var(--indent));
+
+      @media (max-width: 600px) {
+        width: calc(0.8 * var(--indent));
+        height: calc(0.8 * var(--indent));
+        left: calc(-1 * var(--indent));
+      }
     }
 
     margin: 1.5rem 0 1.5rem var(--indent);
@@ -381,27 +413,19 @@ $orange: #f3845e;
   }
 }
 
-.nb-role-colophon .content p {
+.nb-custom-style .nb-role-colophon .content p {
   text-indent: 0;
   margin-bottom: 1rem;
 }
 
-.logos {
+.nb-custom-style .logos {
   margin-top: 2rem;
 
   p {
     margin-bottom: 2rem;
 
-    @include light {
-      filter: none;
-      mix-blend-mode: normal;
-    }
-
-    @include dark {
-      will-change: auto;
-      filter: #{"invert()"};
-      mix-blend-mode: plus-lighter;
-    }
+    filter: var(--base-filter);
+    mix-blend-mode: var(--base-mix-blend-mode);
   }
 
   img {
