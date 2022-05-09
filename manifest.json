@@ -1,0 +1,1569 @@
+{
+  "preview": {
+    "isPreview": false
+  },
+  "title": "Klimavize",
+  "author": "pracovní skupina Klimavize",
+  "published": 2022,
+  "publisher": "Klimavize",
+  "languageCode": "cs",
+  "root": "main",
+  "identifier": "klimavize-klimavize-2022-06a1a2a",
+  "revision": "06a1a2a",
+  "readingOrder": [
+    "1-break.html",
+    "1.html",
+    "2-break.html",
+    "2.html",
+    "3-break.html",
+    "3.html",
+    "4-break.html",
+    "4.html",
+    "5-pic-break.html",
+    "5-break.html",
+    "5.html",
+    "6-break.html",
+    "6.html",
+    "61-pic-break.html",
+    "61.html",
+    "62.html",
+    "63.html",
+    "64.html",
+    "65.html",
+    "66.html",
+    "7-break.html",
+    "7.html",
+    "klimavize.html",
+    "slovnicek.html",
+    "zdroje.html"
+  ],
+  "generatedAt": {
+    "date": "Mon May 09 2022 09:49:24 GMT+0200 (Central European Summer Time)",
+    "unix": 1652082564614
+  },
+  "documents": [
+    {
+      "title": "1 • Klimavize",
+      "file": "1-break.html",
+      "words": 2,
+      "chars": 2,
+      "ideas": 1,
+      "role": "break",
+      "order": 0,
+      "prev": null,
+      "next": "1.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "1",
+          "id": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Co je to Klimavize • Klimavize",
+      "file": "1.html",
+      "words": 390,
+      "chars": 2634,
+      "ideas": 8,
+      "role": "chapter",
+      "order": 1,
+      "prev": "1-break.html",
+      "next": "2-break.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Co je to Klimavize",
+          "id": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "2 • Klimavize",
+      "file": "2-break.html",
+      "words": 2,
+      "chars": 2,
+      "ideas": 1,
+      "role": "break",
+      "order": 2,
+      "prev": "1.html",
+      "next": "2.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "2",
+          "id": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Metody, postupy a kontext výzkumu • Klimavize",
+      "file": "2.html",
+      "words": 4530,
+      "chars": 31188,
+      "ideas": 163,
+      "role": "chapter",
+      "order": 3,
+      "prev": "2-break.html",
+      "next": "3-break.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Metody, postupy a kontext výzkumu",
+          "id": null,
+          "children": [
+            {
+              "index": 2,
+              "level": 2,
+              "name": "První fáze – co jsme objevovali a proč",
+              "id": "první-fáze--conbspjsme-objevovali-anbspproč",
+              "children": [
+                {
+                  "index": 3,
+                  "level": 3,
+                  "name": "Formování výzkumu Klimavize",
+                  "id": "formování-výzkumu-klimavize",
+                  "children": []
+                },
+                {
+                  "index": 4,
+                  "level": 3,
+                  "name": "Záměr a cíle výzkumu",
+                  "id": "záměr-anbspcíle-výzkumu",
+                  "children": []
+                },
+                {
+                  "index": 5,
+                  "level": 3,
+                  "name": "Cíle výzkumu",
+                  "id": "cíle-výzkumu",
+                  "children": []
+                },
+                {
+                  "index": 6,
+                  "level": 3,
+                  "name": "Kontext a omezení výzkumu Klimavize",
+                  "id": "kontext-anbspomezení-výzkumu-klimavize",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 7,
+              "level": 2,
+              "name": "Druhá fáze – jak jsme sbírali, analyzovali a vyhodnocovali data",
+              "id": "druhá-fáze--jak-jsme-sbírali-analyzovali-anbspvyhodnocovali-data",
+              "children": [
+                {
+                  "index": 8,
+                  "level": 3,
+                  "name": "1. Spolupráce s experty a expertkami",
+                  "id": "1-spolupráce-snbspexperty-anbspexpertkami",
+                  "children": [
+                    {
+                      "index": 9,
+                      "level": 4,
+                      "name": "Jak jsme postupovali",
+                      "id": "jak-jsme-postupovali",
+                      "children": []
+                    },
+                    {
+                      "index": 10,
+                      "level": 4,
+                      "name": "S kým jsme mluvili",
+                      "id": "snbspkým-jsme-mluvili",
+                      "children": []
+                    },
+                    {
+                      "index": 12,
+                      "level": 4,
+                      "name": "Metoda hloubkových rozhovorů",
+                      "id": "metoda-hloubkových-rozhovorů",
+                      "children": []
+                    },
+                    {
+                      "index": 13,
+                      "level": 4,
+                      "name": "V rozhovorech jsme se zaměřili na několik oblastí:",
+                      "id": "vnbsprozhovorech-jsme-senbspzaměřili-nanbspněkolik-oblastí",
+                      "children": []
+                    },
+                    {
+                      "index": 14,
+                      "level": 4,
+                      "name": "Analýza a syntéza sebraných dat",
+                      "id": "analýza-anbspsyntéza-br-sebraných-dat",
+                      "children": []
+                    },
+                    {
+                      "index": 15,
+                      "level": 4,
+                      "name": "Vyhodnocení",
+                      "id": "vyhodnocení",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 11,
+              "level": 2,
+              "name": "Přehled participantů a participantek ve výzkumu",
+              "id": "přehled-participantů-anbspparticipantek-venbspvýzkumu",
+              "children": [
+                {
+                  "index": 16,
+                  "level": 3,
+                  "name": "2. Spolupráce s klimatickým hnutím",
+                  "id": "2-spolupráce-snbspklimatickým-hnutím",
+                  "children": [
+                    {
+                      "index": 17,
+                      "level": 4,
+                      "name": "Kontext z pohledu klimatického hnutí",
+                      "id": "kontext-znbsppohledu-klimatického-hnutí",
+                      "children": []
+                    },
+                    {
+                      "index": 18,
+                      "level": 4,
+                      "name": "Plánování strategických cílů v klimatickém hnutí",
+                      "id": "plánování-strategických-cílů-vnbspklimatickém-hnutí",
+                      "children": []
+                    },
+                    {
+                      "index": 19,
+                      "level": 4,
+                      "name": "Ověření výstupů Klimavize a zpětná vazba",
+                      "id": "ověření-výstupů-klimavize-anbspzpětná-vazba",
+                      "children": []
+                    },
+                    {
+                      "index": 20,
+                      "level": 4,
+                      "name": "Inspirace zahraničním klimatickým hnutím",
+                      "id": "inspirace-zahraničním-klimatickým-hnutím",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "index": 21,
+                  "level": 3,
+                  "name": "3. Práce s literaturou",
+                  "id": "3-práce-snbspliteraturou",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 22,
+              "level": 2,
+              "name": "Třetí fáze – hledání a realizace jednotlivých řešení klimatické krize",
+              "id": "třetí-fáze--hledání-anbsprealizace-jednotlivých-řešení-klimatické-krize",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3 • Klimavize",
+      "file": "3-break.html",
+      "words": 2,
+      "chars": 2,
+      "ideas": 1,
+      "role": "break",
+      "order": 4,
+      "prev": "2.html",
+      "next": "3.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "3",
+          "id": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Jak na vlastní strategii • Klimavize",
+      "file": "3.html",
+      "words": 3432,
+      "chars": 21952,
+      "ideas": 111,
+      "role": "chapter",
+      "order": 5,
+      "prev": "3-break.html",
+      "next": "4-break.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Jak na vlastní strategii",
+          "id": null,
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "Proč vůbec mít strategii?",
+              "id": "proč-vůbec-mít-strategii",
+              "children": []
+            },
+            {
+              "index": 2,
+              "level": 2,
+              "name": "Jak si udělat strategii – krok za krokem",
+              "id": "jak-sinbspudělat-strategii--krok-zanbspkrokem",
+              "children": []
+            },
+            {
+              "index": 3,
+              "level": 2,
+              "name": "Krok 0: Co budete potřebovat",
+              "id": "krok-0-conbspbudete-potřebovat",
+              "children": []
+            },
+            {
+              "index": 5,
+              "level": 2,
+              "name": "Krok 1: Co už máte za sebou",
+              "id": "krok-1-conbspužnbspmáte-zanbspsebou",
+              "children": []
+            },
+            {
+              "index": 6,
+              "level": 2,
+              "name": "Krok 2: Analýza situace a tvorba vlastní vize",
+              "id": "krok-2-analýza-situace-anbsptvorba-vlastní-vize",
+              "children": []
+            },
+            {
+              "index": 7,
+              "level": 2,
+              "name": "Krok 3: Teorie změny a definice strategických cílů",
+              "id": "krok-3-teorie-změny-anbspdefinice-strategických-cílů",
+              "children": []
+            },
+            {
+              "index": 9,
+              "level": 2,
+              "name": "Krok 4: Konkrétní plán pro naplnění strategie",
+              "id": "krok-4-konkrétní-plán-pro-naplnění-strategie",
+              "children": []
+            },
+            {
+              "index": 10,
+              "level": 2,
+              "name": "Krok 5: Vyhodnocování úspěšnosti a strategické myšlení",
+              "id": "krok-5-vyhodnocování-úspěšnosti-anbspstrategické-myšlení",
+              "children": []
+            },
+            {
+              "index": 11,
+              "level": 2,
+              "name": "Kontakty na spřízněné facilitátory a facilitátorky",
+              "id": "kontakty-nanbspspřízněné-facilitátory-anbspfacilitátorky",
+              "children": []
+            },
+            {
+              "index": 12,
+              "level": 2,
+              "name": "Další zdroje pro strategické plánování",
+              "id": "další-zdroje-pro-strategické-plánování",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4 • Klimavize",
+      "file": "4-break.html",
+      "words": 2,
+      "chars": 2,
+      "ideas": 1,
+      "role": "break",
+      "order": 6,
+      "prev": "3.html",
+      "next": "4.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "4",
+          "id": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Klimatické hnutí a jeho strategie • Klimavize",
+      "file": "4.html",
+      "words": 4636,
+      "chars": 31691,
+      "ideas": 116,
+      "role": "chapter",
+      "order": 7,
+      "prev": "4-break.html",
+      "next": "5-pic-break.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Klimatické hnutí a jeho strategie",
+          "id": null,
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "Role klimatického hnutí",
+              "id": "role-klimatického-hnutí",
+              "children": [
+                {
+                  "index": 2,
+                  "level": 3,
+                  "name": "Diverzita ekosystému klimatického hnutí",
+                  "id": "diverzita-ekosystému-klimatického-hnutí",
+                  "children": []
+                },
+                {
+                  "index": 3,
+                  "level": 3,
+                  "name": "Jaké role v ekosystému klimatického hnutí chybějí?",
+                  "id": "jaké-role-vnbspekosystému-klimatického-hnutí-chybějí",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "level": 2,
+              "name": "Nejít příliš rychle ani pomalu, nebýt příliš vpředu ani vzadu",
+              "id": "nejít-příliš-rychle-ani-pomalu-nebýt-příliš-vpředu-ani-vzadu",
+              "children": []
+            },
+            {
+              "index": 5,
+              "level": 2,
+              "name": "Jak se v klimatickém hnutí tvoří strategie",
+              "id": "jak-senbspvnbspklimatickém-hnutí-tvoří-strategie",
+              "children": [
+                {
+                  "index": 6,
+                  "level": 3,
+                  "name": "Jak strategie vzniká a o co se opírá",
+                  "id": "jak-strategie-vzniká-anbsponbspconbspsenbspopírá",
+                  "children": [
+                    {
+                      "index": 7,
+                      "level": 4,
+                      "name": "U větších/zaběhlejších organizací hrají v plánování roli následující parametry a vstupy:",
+                      "id": "unbspvětšíchzaběhlejších-organizací-hrají-vnbspplánování-roli-následující-parametry-anbspvstupy",
+                      "children": []
+                    },
+                    {
+                      "index": 8,
+                      "level": 4,
+                      "name": "Co pomáhá organizacím při tvorbě strategie/plánu?",
+                      "id": "conbsppomáhá-organizacím-při-tvorbě-strategieplánu",
+                      "children": []
+                    },
+                    {
+                      "index": 9,
+                      "level": 4,
+                      "name": "Problémy při tvorbě strategií",
+                      "id": "problémy-při-tvorbě-strategií",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 10,
+              "level": 2,
+              "name": "Tipy pro klimatické hnutí",
+              "id": "tipy-pro-klimatické-hnutí",
+              "children": [
+                {
+                  "index": 11,
+                  "level": 3,
+                  "name": "Komunikace",
+                  "id": "komunikace",
+                  "children": []
+                },
+                {
+                  "index": 12,
+                  "level": 3,
+                  "name": "Příležitosti",
+                  "id": "příležitosti",
+                  "children": []
+                },
+                {
+                  "index": 13,
+                  "level": 3,
+                  "name": "Hrozby",
+                  "id": "hrozby",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 14,
+              "level": 2,
+              "name": "O čem byla tato kapitola",
+              "id": "onbspčem-byla-tato-kapitola",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Větrník • Klimavize",
+      "file": "5-pic-break.html",
+      "words": 0,
+      "chars": 0,
+      "ideas": 0,
+      "role": "break",
+      "order": 8,
+      "prev": "4.html",
+      "next": "5-break.html",
+      "toc": []
+    },
+    {
+      "title": "5 • Klimavize",
+      "file": "5-break.html",
+      "words": 2,
+      "chars": 2,
+      "ideas": 1,
+      "role": "break",
+      "order": 9,
+      "prev": "5-pic-break.html",
+      "next": "5.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "5",
+          "id": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Zahraniční inspirace • Klimavize",
+      "file": "5.html",
+      "words": 1538,
+      "chars": 10564,
+      "ideas": 23,
+      "role": "chapter",
+      "order": 10,
+      "prev": "5-break.html",
+      "next": "6-break.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Zahraniční inspirace",
+          "id": null,
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "Strategická práce v Sunrise Movement",
+              "id": "strategická-práce-vnbspsunrise-movement",
+              "children": []
+            },
+            {
+              "index": 2,
+              "level": 2,
+              "name": "Strategické debaty v německém klimatickém hnutí",
+              "id": "strategické-debaty-vnbspněmeckém-klimatickém-hnutí",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6 • Klimavize",
+      "file": "6-break.html",
+      "words": 2,
+      "chars": 2,
+      "ideas": 1,
+      "role": "break",
+      "order": 11,
+      "prev": "5.html",
+      "next": "6.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "6",
+          "id": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Šest oblastí, kterým se musíme věnovat při řešení klimatické krize • Klimavize",
+      "file": "6.html",
+      "words": 290,
+      "chars": 2055,
+      "ideas": 13,
+      "role": "chapter",
+      "order": 12,
+      "prev": "6-break.html",
+      "next": "61-pic-break.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Šest oblastí, kterým se musíme věnovat při řešení klimatické krize",
+          "id": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Oko • Klimavize",
+      "file": "61-pic-break.html",
+      "words": 0,
+      "chars": 0,
+      "ideas": 0,
+      "role": "break",
+      "order": 13,
+      "prev": "6.html",
+      "next": "61.html",
+      "toc": []
+    },
+    {
+      "title": "6.1 Jak dosáhnout systémové změny • Klimavize",
+      "file": "61.html",
+      "words": 4601,
+      "chars": 31620,
+      "ideas": 118,
+      "role": "chapter",
+      "order": 14,
+      "prev": "61-pic-break.html",
+      "next": "62.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "6.1 Jak dosáhnout systémové změny",
+          "id": null,
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "Proč je systémová změna nutná",
+              "id": "proč-jenbspsystémová-změna-nutná",
+              "children": [
+                {
+                  "index": 2,
+                  "level": 3,
+                  "name": "Systémové myšlení a pákové body změny",
+                  "id": "systémové-myšlení-anbsppákové-body-změny",
+                  "children": []
+                },
+                {
+                  "index": 3,
+                  "level": 3,
+                  "name": "Jak se systémové myšlení promítá do praxe",
+                  "id": "jak-senbspsystémové-myšlení-promítá-donbsppraxe",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "level": 2,
+              "name": "Ekonomický systém jako příčina klimatické krize",
+              "id": "ekonomický-systém-jako-příčina-klimatické-krize",
+              "children": [
+                {
+                  "index": 5,
+                  "level": 3,
+                  "name": "Zelený růst není řešením",
+                  "id": "zelený-růst-není-řešením",
+                  "children": []
+                },
+                {
+                  "index": 6,
+                  "level": 3,
+                  "name": "Klimatické hnutí může prosazovat ekonomické cíle",
+                  "id": "klimatické-hnutí-může-prosazovat-ekonomické-cíle",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 7,
+              "level": 2,
+              "name": "Příroda je aktér i podmínka existence",
+              "id": "příroda-jenbspaktér-inbsppodmínka-existence",
+              "children": [
+                {
+                  "index": 8,
+                  "level": 3,
+                  "name": "Komunikace",
+                  "id": "komunikace",
+                  "children": []
+                },
+                {
+                  "index": 9,
+                  "level": 3,
+                  "name": "Příležitosti",
+                  "id": "příležitosti",
+                  "children": []
+                },
+                {
+                  "index": 10,
+                  "level": 3,
+                  "name": "Hrozby",
+                  "id": "hrozby",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 11,
+              "level": 2,
+              "name": "O čem byla tato kapitola",
+              "id": "onbspčem-byla-tato-kapitola",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6.2 Klimatická krize jako průřezové téma • Klimavize",
+      "file": "62.html",
+      "words": 3733,
+      "chars": 25268,
+      "ideas": 87,
+      "role": "chapter",
+      "order": 15,
+      "prev": "61.html",
+      "next": "63.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "6.2 Klimatická krize jako průřezové téma",
+          "id": null,
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "Klimatická krize není jen otázka ochrany přírody",
+              "id": "klimatická-krize-není-jen-otázka-ochrany-přírody",
+              "children": [
+                {
+                  "index": 2,
+                  "level": 3,
+                  "name": "Nemáme odborníky a odbornice a neplánujeme",
+                  "id": "nemáme-odborníky-anbspodbornice-anbspneplánujeme",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "level": 2,
+              "name": "Debatě o klimatu chybí rámování a vize",
+              "id": "debatě-onbspklimatu-chybí-rámování-anbspvize",
+              "children": [
+                {
+                  "index": 4,
+                  "level": 3,
+                  "name": "Změny klimatu vyvolávající strach",
+                  "id": "změny-klimatu-vyvolávající-strach",
+                  "children": []
+                },
+                {
+                  "index": 5,
+                  "level": 3,
+                  "name": "Změny klimatu jako naděje a příležitost",
+                  "id": "změny-klimatu-jako-naděje-anbsppříležitost",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 6,
+              "level": 2,
+              "name": "Jak a proč ukazovat konkrétní dopady klimatické krize",
+              "id": "jak-anbspproč-ukazovat-konkrétní-dopady-klimatické-krize",
+              "children": [
+                {
+                  "index": 7,
+                  "level": 3,
+                  "name": "Konkrétní dopady klimatické krize na životy lidí",
+                  "id": "konkrétní-dopady-klimatické-krize-br-na-životy-lidí",
+                  "children": []
+                },
+                {
+                  "index": 8,
+                  "level": 3,
+                  "name": "Propojení klimatu a socioekonomických problémů",
+                  "id": "propojení-klimatu-anbspsocioekonomických-problémů",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 9,
+              "level": 2,
+              "name": "Tipy pro klimatické hnutí",
+              "id": "tipy-pro-klimatické-hnutí",
+              "children": [
+                {
+                  "index": 10,
+                  "level": 3,
+                  "name": "Komunikace",
+                  "id": "komunikace",
+                  "children": []
+                },
+                {
+                  "index": 11,
+                  "level": 3,
+                  "name": "Příležitosti",
+                  "id": "příležitosti",
+                  "children": []
+                },
+                {
+                  "index": 12,
+                  "level": 3,
+                  "name": "Hrozby",
+                  "id": "hrozby",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 13,
+              "level": 2,
+              "name": "O čem byla tato kapitola",
+              "id": "onbspčem-byla-tato-kapitola",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6.3 Moc a odkrývání toho, kdo ji má • Klimavize",
+      "file": "63.html",
+      "words": 4709,
+      "chars": 32910,
+      "ideas": 129,
+      "role": "chapter",
+      "order": 16,
+      "prev": "62.html",
+      "next": "64.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "6.3 Moc a odkrývání toho, kdo ji má",
+          "id": null,
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "Kdo blokuje spravedlivou transformaci",
+              "id": "kdo-blokuje-spravedlivou-transformaci",
+              "children": [
+                {
+                  "index": 2,
+                  "level": 3,
+                  "name": "Mocní si chtějí zachovat svou pozici",
+                  "id": "mocní-sinbspchtějí-zachovat-svou-pozici",
+                  "children": []
+                },
+                {
+                  "index": 3,
+                  "level": 3,
+                  "name": "Obavy konzervativních",
+                  "id": "obavy-konzervativních",
+                  "children": []
+                },
+                {
+                  "index": 4,
+                  "level": 3,
+                  "name": "Skutečná, nebo falešná řešení?",
+                  "id": "skutečná-nebo-falešná-řešení",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "level": 2,
+              "name": "Veřejný zájem musí mít přednost před zájmem soukromým",
+              "id": "veřejný-zájem-musí-mít-přednost-před-zájmem-soukromým",
+              "children": [
+                {
+                  "index": 6,
+                  "level": 3,
+                  "name": "Je nutné konfrontovat moc",
+                  "id": "jenbspnutné-konfrontovat-moc",
+                  "children": []
+                },
+                {
+                  "index": 7,
+                  "level": 3,
+                  "name": "Regulace budou nezbytné",
+                  "id": "regulace-budou-nezbytné",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 8,
+              "level": 2,
+              "name": "Mocenské poměry v energetice",
+              "id": "mocenské-poměry-vnbspenergetice",
+              "children": []
+            },
+            {
+              "index": 9,
+              "level": 2,
+              "name": "Tipy pro klimatické hnutí",
+              "id": "tipy-pro-klimatické-hnutí",
+              "children": [
+                {
+                  "index": 10,
+                  "level": 3,
+                  "name": "Komunikace",
+                  "id": "komunikace",
+                  "children": []
+                },
+                {
+                  "index": 11,
+                  "level": 3,
+                  "name": "Příležitosti",
+                  "id": "příležitosti",
+                  "children": []
+                },
+                {
+                  "index": 12,
+                  "level": 3,
+                  "name": "Hrozby",
+                  "id": "hrozby",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 13,
+              "level": 2,
+              "name": "O čem byla tato kapitola",
+              "id": "onbspčem-byla-tato-kapitola",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6.4 Jak to celé dělat spravedlivě • Klimavize",
+      "file": "64.html",
+      "words": 4488,
+      "chars": 31345,
+      "ideas": 107,
+      "role": "chapter",
+      "order": 17,
+      "prev": "63.html",
+      "next": "65.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "6.4 Jak to celé dělat spravedlivě",
+          "id": null,
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "Problémy transformačního procesu a klíče k jejich řešení",
+              "id": "problémy-transformačního-procesu-anbspklíče-knbspjejich-řešení",
+              "children": [
+                {
+                  "index": 2,
+                  "level": 3,
+                  "name": "Účast na rozhodování jako základ",
+                  "id": "účast-nanbsprozhodování-jako-základ",
+                  "children": []
+                },
+                {
+                  "index": 3,
+                  "level": 3,
+                  "name": "Spravedlnost v rozložení nákladů a v investicích",
+                  "id": "spravedlnost-vnbsprozložení-nákladů-anbspvnbspinvesticích",
+                  "children": []
+                },
+                {
+                  "index": 4,
+                  "level": 3,
+                  "name": "Práce: lokální, zelená, důstojná a smysluplná",
+                  "id": "práce-lokální-zelená-důstojná-anbspsmysluplná",
+                  "children": []
+                },
+                {
+                  "index": 5,
+                  "level": 3,
+                  "name": "Kulturalizace klimatických témat a společenská fragmentace",
+                  "id": "kulturalizace-klimatických-témat-anbspspolečenská-fragmentace",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 6,
+              "level": 2,
+              "name": "Energetická chudoba a právo na energii",
+              "id": "energetická-chudoba-anbspprávo-nanbspenergii",
+              "children": [
+                {
+                  "index": 7,
+                  "level": 3,
+                  "name": "Rostoucí ceny energií a společenská polarizace",
+                  "id": "rostoucí-ceny-energií-anbspspolečenská-polarizace",
+                  "children": []
+                },
+                {
+                  "index": 8,
+                  "level": 3,
+                  "name": "Překážky pro řešení energetické chudoby",
+                  "id": "překážky-pro-řešení-energetické-chudoby",
+                  "children": []
+                },
+                {
+                  "index": 9,
+                  "level": 3,
+                  "name": "Udržitelná energie musí být dostupná",
+                  "id": "udržitelná-energie-musí-být-dostupná",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 10,
+              "level": 2,
+              "name": "Tipy pro klimatické hnutí",
+              "id": "tipy-pro-klimatické-hnutí",
+              "children": [
+                {
+                  "index": 11,
+                  "level": 3,
+                  "name": "Komunikace",
+                  "id": "komunikace",
+                  "children": []
+                },
+                {
+                  "index": 12,
+                  "level": 3,
+                  "name": "Příležitosti",
+                  "id": "příležitosti",
+                  "children": []
+                },
+                {
+                  "index": 13,
+                  "level": 3,
+                  "name": "Hrozby",
+                  "id": "hrozby",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 14,
+              "level": 2,
+              "name": "O čem byla tato kapitola",
+              "id": "onbspčem-byla-tato-kapitola",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6.5 Strategická spojenectví • Klimavize",
+      "file": "65.html",
+      "words": 4595,
+      "chars": 30971,
+      "ideas": 135,
+      "role": "chapter",
+      "order": 18,
+      "prev": "64.html",
+      "next": "66.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "6.5 Strategická spojenectví",
+          "id": null,
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "Spojenci jsou, jen se musejí propojit",
+              "id": "spojenci-jsou-jen-senbspmusejí-propojit",
+              "children": [
+                {
+                  "index": 2,
+                  "level": 3,
+                  "name": "Každé téma si zaslouží jiné spojence",
+                  "id": "každé-téma-sinbspzaslouží-jiné-spojence",
+                  "children": []
+                },
+                {
+                  "index": 3,
+                  "level": 3,
+                  "name": "Na dílčích řešeních lze najít shodu",
+                  "id": "nanbspdílčích-řešeních-lze-najít-shodu",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "level": 2,
+              "name": "Klimatické hnutí, které vidí za své hranice",
+              "id": "klimatické-hnutí-které-vidí-zanbspsvé-hranice",
+              "children": [
+                {
+                  "index": 5,
+                  "level": 3,
+                  "name": "Zbavit ochranu klimatu snobismu",
+                  "id": "zbavit-ochranu-klimatu-snobismu",
+                  "children": []
+                },
+                {
+                  "index": 6,
+                  "level": 3,
+                  "name": "Používat jazyk, který je lidem blízký",
+                  "id": "používat-jazyk-který-jenbsplidem-blízký",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 7,
+              "level": 2,
+              "name": "S kým spojenectví navazovat",
+              "id": "snbspkým-spojenectví-navazovat",
+              "children": [
+                {
+                  "index": 8,
+                  "level": 3,
+                  "name": "Kraje, města a obce",
+                  "id": "kraje-města-anbspobce",
+                  "children": []
+                },
+                {
+                  "index": 9,
+                  "level": 3,
+                  "name": "Místní akční skupiny a lokální spolky",
+                  "id": "místní-akční-skupiny-anbsplokální-spolky",
+                  "children": []
+                },
+                {
+                  "index": 10,
+                  "level": 3,
+                  "name": "Podniky a byznys",
+                  "id": "podniky-anbspbyznys",
+                  "children": []
+                },
+                {
+                  "index": 11,
+                  "level": 3,
+                  "name": "Vlivní lidé, politici a političky",
+                  "id": "vlivní-lidé-politici-anbsppolitičky",
+                  "children": []
+                },
+                {
+                  "index": 12,
+                  "level": 3,
+                  "name": "Odbory",
+                  "id": "odbory",
+                  "children": []
+                },
+                {
+                  "index": 13,
+                  "level": 3,
+                  "name": "Školy a mladí lidé",
+                  "id": "školy-anbspmladí-lidé",
+                  "children": []
+                },
+                {
+                  "index": 14,
+                  "level": 3,
+                  "name": "Církve",
+                  "id": "církve",
+                  "children": []
+                },
+                {
+                  "index": 15,
+                  "level": 3,
+                  "name": "Občanské organizace",
+                  "id": "občanské-organizace",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 16,
+              "level": 2,
+              "name": "Tipy pro klimatické hnutí",
+              "id": "tipy-pro-klimatické-hnutí",
+              "children": [
+                {
+                  "index": 17,
+                  "level": 3,
+                  "name": "Komunikace",
+                  "id": "komunikace",
+                  "children": []
+                },
+                {
+                  "index": 18,
+                  "level": 3,
+                  "name": "Příležitosti",
+                  "id": "příležitosti",
+                  "children": []
+                },
+                {
+                  "index": 19,
+                  "level": 3,
+                  "name": "Hrozby",
+                  "id": "hrozby",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 20,
+              "level": 2,
+              "name": "O čem byla tato kapitola",
+              "id": "onbspčem-byla-tato-kapitola",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6.6 Role institucí a veřejné správy • Klimavize",
+      "file": "66.html",
+      "words": 4404,
+      "chars": 29701,
+      "ideas": 118,
+      "role": "chapter",
+      "order": 19,
+      "prev": "65.html",
+      "next": "7-break.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "6.6 Role institucí a veřejné správy",
+          "id": null,
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "Lokální a regionální úroveň řešení klimatické krize",
+              "id": "lokální-anbspregionální-úroveň-řešení-klimatické-krize",
+              "children": []
+            },
+            {
+              "index": 2,
+              "level": 2,
+              "name": "Státní úroveň: ČR bez ambicí a strategického myšlení",
+              "id": "státní-úroveň-črnbspbez-ambicí-anbspstrategického-myšlení",
+              "children": []
+            },
+            {
+              "index": 3,
+              "level": 2,
+              "name": "EU jako klíčový hráč při řešení klimatické krize v Česku",
+              "id": "eunbspjako-klíčový-hráč-při-řešení-klimatické-krize-vnbspčesku",
+              "children": []
+            },
+            {
+              "index": 4,
+              "level": 2,
+              "name": "Co státní správě brání efektivně řešit komplexní problémy",
+              "id": "conbspstátní-správě-brání-efektivně-řešit-komplexní-problémy",
+              "children": [
+                {
+                  "index": 5,
+                  "level": 3,
+                  "name": "Roztříštěnost a zahlcenost státní správy",
+                  "id": "roztříštěnost-anbspzahlcenost-státní-správy",
+                  "children": []
+                },
+                {
+                  "index": 6,
+                  "level": 3,
+                  "name": "Nástroje státní správy: evaluace, rozpočtování a taxonomie",
+                  "id": "nástroje-státní-správy-evaluace-rozpočtování-anbsptaxonomie",
+                  "children": []
+                },
+                {
+                  "index": 7,
+                  "level": 3,
+                  "name": "Personální obsazení institucí",
+                  "id": "personální-obsazení-institucí",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 8,
+              "level": 2,
+              "name": "Tipy pro klimatické hnutí",
+              "id": "tipy-pro-klimatické-hnutí",
+              "children": [
+                {
+                  "index": 9,
+                  "level": 3,
+                  "name": "Komunikace",
+                  "id": "komunikace",
+                  "children": []
+                },
+                {
+                  "index": 10,
+                  "level": 3,
+                  "name": "Příležitosti",
+                  "id": "příležitosti",
+                  "children": []
+                },
+                {
+                  "index": 11,
+                  "level": 3,
+                  "name": "Hrozby",
+                  "id": "hrozby",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 12,
+              "level": 2,
+              "name": "O čem byla tato kapitola",
+              "id": "onbspčem-byla-tato-kapitola",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "7 • Klimavize",
+      "file": "7-break.html",
+      "words": 2,
+      "chars": 2,
+      "ideas": 1,
+      "role": "break",
+      "order": 20,
+      "prev": "66.html",
+      "next": "7.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "7",
+          "id": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Co bude dál? • Klimavize",
+      "file": "7.html",
+      "words": 757,
+      "chars": 5243,
+      "ideas": 15,
+      "role": "chapter",
+      "order": 21,
+      "prev": "7-break.html",
+      "next": "klimavize.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Co bude dál?",
+          "id": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Pracovní skupina Klimavize • Klimavize",
+      "file": "klimavize.html",
+      "words": 470,
+      "chars": 3571,
+      "ideas": 13,
+      "role": "chapter",
+      "order": 22,
+      "prev": "7.html",
+      "next": "slovnicek.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Pracovní skupina Klimavize",
+          "id": null,
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "Zúčastněné organizace a společnosti",
+              "id": "zúčastněné-organizace-anbspspolečnosti",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Slovníček • Klimavize",
+      "file": "slovnicek.html",
+      "words": 3232,
+      "chars": 23029,
+      "ideas": 113,
+      "role": "chapter",
+      "order": 23,
+      "prev": "klimavize.html",
+      "next": "zdroje.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Slovníček",
+          "id": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Seznam zdrojů • Klimavize",
+      "file": "zdroje.html",
+      "words": 3069,
+      "chars": 23702,
+      "ideas": 147,
+      "role": "chapter",
+      "order": 24,
+      "prev": "slovnicek.html",
+      "next": null,
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Seznam zdrojů",
+          "id": null,
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "2. Metody, postupy a kontext výzkumu",
+              "id": "2-metody-postupy-anbspkontext-výzkumu",
+              "children": []
+            },
+            {
+              "index": 2,
+              "level": 2,
+              "name": "3. Jak na vlastní strategii",
+              "id": "3-jak-nanbspvlastní-strategii",
+              "children": []
+            },
+            {
+              "index": 3,
+              "level": 2,
+              "name": "4. Klimatické hnutí a jeho strategie",
+              "id": "4-klimatické-hnutí-anbspjeho-strategie",
+              "children": []
+            },
+            {
+              "index": 4,
+              "level": 2,
+              "name": "6.1 Jak dosáhnout systémové změny",
+              "id": "61-jak-dosáhnout-systémové-změny",
+              "children": []
+            },
+            {
+              "index": 5,
+              "level": 2,
+              "name": "6.2 Klimatická krize jako průřezové téma",
+              "id": "62-klimatická-krize-jako-průřezové-téma",
+              "children": []
+            },
+            {
+              "index": 6,
+              "level": 2,
+              "name": "6.3 Moc a odkrývání toho, kdo ji má",
+              "id": "63-moc-anbspodkrývání-toho-kdo-jinbspmá",
+              "children": []
+            },
+            {
+              "index": 7,
+              "level": 2,
+              "name": "6.4 Jak to celé dělat spravedlivě",
+              "id": "64-jak-tonbspcelé-dělat-spravedlivě",
+              "children": []
+            },
+            {
+              "index": 8,
+              "level": 2,
+              "name": "6.5 Strategická spojenectví",
+              "id": "65-strategická-spojenectví",
+              "children": []
+            },
+            {
+              "index": 9,
+              "level": 2,
+              "name": "6.6 Role institucí a veřejné správy",
+              "id": "66-role-institucí-anbspveřejné-správy",
+              "children": []
+            },
+            {
+              "index": 10,
+              "level": 2,
+              "name": "8. Slovníček",
+              "id": "8-slovníček",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "all": {
+      "words": 49172,
+      "chars": 339483,
+      "ideas": 1448
+    },
+    "chapters": {
+      "words": 48874,
+      "chars": 337444,
+      "ideas": 1416
+    }
+  }
+}
