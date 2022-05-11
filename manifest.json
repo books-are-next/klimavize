@@ -8,8 +8,8 @@
   "publisher": "Klimavize",
   "languageCode": "cs",
   "root": "main",
-  "identifier": "klimavize-klimavize-2022-06a1a2a",
-  "revision": "06a1a2a",
+  "identifier": "klimavize-klimavize-2022-d9b9f4b",
+  "revision": "d9b9f4b",
   "readingOrder": [
     "1-break.html",
     "1.html",
@@ -38,8 +38,8 @@
     "zdroje.html"
   ],
   "generatedAt": {
-    "date": "Mon May 09 2022 09:49:24 GMT+0200 (Central European Summer Time)",
-    "unix": 1652082564614
+    "date": "Wed May 11 2022 14:07:25 GMT+0200 (Central European Summer Time)",
+    "unix": 1652270845108
   },
   "documents": [
     {
